@@ -1,0 +1,24 @@
+{
+    "name": "oip-bor-bdt-react",
+    "description": "Componente de bandeja de tareas",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://aqdes-stash02.cm.es/stash/scm/bdtfrontreact/bdt-main.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "build/favicon.ico",
+        "build/index.html",
+        "src",
+        "public",
+        "service-worker.js",
+        "webpack-build-log.json",
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE"
+    ],
+    "private": true,
+    "main": ["./build/main.1.2.5.js"]
+}

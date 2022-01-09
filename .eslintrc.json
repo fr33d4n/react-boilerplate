@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["plugin:react/recommended", "airbnb", "prettier", "prettier/react"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react"],
+    "rules": {
+        "indent": "off",
+        "react/jsx-indent": "off",
+        "object-curly-newline": "off",
+        "max-len": [2, 140, 4],
+        "import/prefer-default-export": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["@store", "./src/store"],
+                    ["@pages", "./src/pages"],
+                    ["@hooks", "./src/hooks"],
+                    ["@components", "./src/components"],
+                    ["@actions", "./src/actions"],
+                    ["@services", "./src/services"],
+                    ["@config", "./src/configs/development"],
+                    ["@routes", "./src/routes"]
+                ],
+                "extensions": [".js", ".jsx", ".json"]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowSyntheticDefaultImports": false,
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "@store/*": ["src/store/*"],
+            "@pages/*": ["src/pages/*"],
+            "@hooks/*": ["src/hooks/*"],
+            "@components/*": ["src/components/*"],
+            "@actions/*": ["src/actions/*"],
+            "@services/*": ["src/services/*"],
+            "@config": ["src/configs/development"],
+            "@routes/*": ["src/routes/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist", "build"]
+}

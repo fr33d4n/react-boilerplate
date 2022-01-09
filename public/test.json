@@ -1,0 +1,3595 @@
+{
+    "config": {
+        "recomendador_config": {
+            "config": {
+                "ubicaciones": [
+                    {
+                        "state": "oip-posicion-global",
+                        "ubicaciones": [
+                            "RIGHT",
+                            "UPPER"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cuentas-posicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-posicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-miniposicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-prestamos-posicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-miniposicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-seguros-listado",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-avales-posicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-valores-miniposicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-miniposicion",
+                        "ubicaciones": [
+                            "RIGHT"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-cuentas-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-depositos-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-fondos-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-planes-pensiones-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-prestamo-consumo-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-prestamos-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-seguros-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-tarjeta-preconcedida-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-tarjetas-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-contratacion-ivalores-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cuentas-devolver-recibo-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cuentas-moneda-extranjera-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cuentas-talonarios-success",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-cancelacion-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-datos-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-ingreso-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-reembolso-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-depositos-renovacion-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-cambio-cuenta-nacional-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-movilizacion-externa-nacional-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-suscripcion-nacional-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-reembolso-nacional-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-suscripcion-internacional-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-reembolso-internacional-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-fondos-traspaso-nacional-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-borrador-irpf.resultado",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-imp-consulta-info-fiscal",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-imp-consulta-info-fiscal",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-pago-impuestos-seg-social.resultado",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-pago-impuestos-aeat.resultado",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-impuestos-estado-ordenes-firmar-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-impuestos-estado-ordenes-anular-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-impuestos-estado-ordenes-anular-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-plan-aportaciones-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-prestaciones-resultado",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-gestion-informes-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-modificar-cuenta-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-plan-aportaciones-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-movilizacion-externa-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-plan-aportaciones-confirmar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-aportacion-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-planes-pensiones-traspaso-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-prestamos-amortizacion-anticipada-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-prestamos-simulacion-cancelacion",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-recibos-cargo-cambio-cuenta-success",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cargar-recibos-traspaso-previo-success",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-recibos-cargo-directo-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-ordenes-domiciliaciones-finalizar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-modificar-cuenta-cargo-resumen ",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-ordenes-domiciliaciones-finalizar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-ordenes-domiciliaciones-finalizar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-modificar-cuenta-cargo-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-pago-recibos-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-modificar-cuenta-cargo-resumen ",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-ordenes-mandatos-finalizar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-ordenes-mandatos-finalizar",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-pago-recibos-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-recibos-rechazar-fin",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-bloqueo-temporal-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-cvv-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-extralimite",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-extravio-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-ingresos-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-modificacion-cuenta-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-credito",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-diario-compras",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-credito",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-diario-internet ",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-limites-resumen-diario-cajeros",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-pagos-extranjero-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-recargas-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-efectivo-cajero-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-tarjetas-traspaso-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    },
+                    {
+                        "state": "oip-cuentas-transferencias-resumen",
+                        "ubicaciones": [
+                            "DOWN"
+                        ],
+                        "thunderhead": true
+                    }
+                ]
+            }
+        },
+        "bbp_config": {
+            "config": {
+                "informemensual": {
+                    "anio": 2017,
+                    "mes": 5,
+                    "iplus": {
+                        "basedatos": "IPLCORRESP",
+                        "expediente": "COALTAEMES"
+                    }
+                },
+                "informesFiscales": {
+                    "preinforme": {
+                        "activado": true,
+                        "anio": 2020
+                    },
+                    "iplus": {
+                        "basedatos": "IPLCORRESP",
+                        "expediente": "COALTAEFIS"
+                    }
+                },
+                "sicav": {
+                    "iplus": {
+                        "basedatos": "IPLCORRESP",
+                        "expediente": {
+                            "diario": "COSIMCAVDI",
+                            "mensual": "COSIMCAV"
+                        }
+                    }
+                },
+                "movimientosCuenta": true,
+                "informediario": {
+                    "iplus": {
+                        "basedatos": "IPLCORRESP",
+                        "expediente": "COALTAEDIA"
+                    }
+                },
+                "informeDiario.activada": true
+            }
+        },
+        "fondosinternacionales_config": {
+            "config": {
+                "fondosinternacionales.mifidClassesActive": false,
+                "fondosinternacionales.widgetfondo.url": "https://bankiafondos-uat.webfg.com/widget/minificha/detail?isin=",
+                "operar.movilizacion": true,
+                "operar.traspaso": true,
+                "fondosinternacionales.contratacion.mostraraportacion": "oip-fondos-suscripciones-internacionales",
+                "traspaso": {
+                    "codigoGestora": "90010",
+                    "nombreGestora": "BANCO INVERSIS NET, S.A.",
+                    "nifGestora": "A83131433"
+                },
+                "traerFondoBankia": {
+                    "codigoGestora": "00085",
+                    "nombreGestora": "BANKIA FONDOS SGIIC, S.A.",
+                    "nifGestora": "A78638251"
+                },
+                "fondosinternacionales.restriccionesOperativasCuentaValoresActive": true,
+                "fondosInternacionales.vertical.operate": {
+                    "opInterMovimientos": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.movimientos",
+                        "state": "oip-fondos-movimientos-internacional",
+                        "disable": false,
+                        "order": 1,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterPosicion": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.posicion",
+                        "state": "oip-fondos-posicion",
+                        "disable": false,
+                        "order": 2,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterAportacion": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.aportacion",
+                        "state": "oip-fondos-suscripciones-internacionales",
+                        "disable": false,
+                        "order": 3,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterReembolso": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.reembolso",
+                        "state": "oip-fondos-reembolso-internacional",
+                        "disable": false,
+                        "order": 4,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterMovilizacion": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.movilizacionExterna",
+                        "state": "oip-movilizaciones-fi",
+                        "disable": false,
+                        "order": 5,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterTraspaso": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.traspaso",
+                        "state": "oip-fondos-traspaso-internacional",
+                        "disable": false,
+                        "order": 6,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterFicha": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.ficha",
+                        "state": "oip-ficha-producto",
+                        "disable": false,
+                        "order": 7,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterInformes": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.informes",
+                        "state": "",
+                        "disable": false,
+                        "order": 8,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterModifCuenta": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.modifCuentaAsociada",
+                        "state": "oip-fondos-cambio-cuenta-internacional",
+                        "disable": false,
+                        "order": 9,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    },
+                    "opInterDatos": {
+                        "label": "oipFondosMiniposicion.inter.operaciones.datos",
+                        "state": "oip-fondos-datos-internacional",
+                        "disable": false,
+                        "order": 10,
+                        "camposAdicionales": [],
+                        "contratoCompleto": true
+                    }
+                }
+            }
+        },
+        "opinator_config": {
+            "config": {
+                "active": true,
+                "operations": {
+                    "XBNK_OI_VALOR": {
+                        "active": "true",
+                        "minTime": 60,
+                        "minMenusNavigated": 1
+                    },
+                    "XBNK_OI_PREST_ON_FINAL": {
+                        "active": "true",
+                        "state": "/oip-resumen"
+                    },
+                    "XBNK_OI_HIPOT_ON_FINAL": {
+                        "active": "true",
+                        "state": "/oip-hipoteca-liquidacion-fondos"
+                    },
+                    "XBNK_OI_TRAN_VALOR_1": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-resumen"
+                    },
+                    "XBNK_OI_TRAN_NAC_1": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-resumen"
+                    },
+                    "XBNK_OI_TRAN_NAC_2": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-firma"
+                    },
+                    "XBNK_OI_TRAN_INT_1": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-solicitud"
+                    },
+                    "XBNK_OI_TRAN_INT_2": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-firma"
+                    },
+                    "XBNK_OI_TRASP_1": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-solicitud"
+                    },
+                    "XBNK_OI_TRASP_2": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-firma"
+                    },
+                    "XBNK_OI_TRASP_3": {
+                        "active": "false",
+                        "state": "/oip-cuentas-transferencias-firma"
+                    },
+                    "XBNK_OI_ON_OFF_1": {
+                        "active": "false",
+                        "state": "/oip-tarjetas-bloqueo-temporal"
+                    },
+                    "XBNK_OI_ON_OFF_2": {
+                        "active": "false",
+                        "state": "/oip-tarjetas-bloqueo-temporal"
+                    },
+                    "XBNK_OI_ON_OFF_3": {
+                        "active": "false",
+                        "state": "/oip-tarjetas-bloqueo-temporal"
+                    },
+                    "XBNK_OI_LIMIT_VALOR": {
+                        "active": "false",
+                        "state": [
+                            "/oip-tarjetas-limites-resumen-credito",
+                            "/oip-tarjetas-limites-resumen-diario-cajeros",
+                            "/oip-tarjetas-limites-resumen-diario-compras",
+                            "/oip-tarjetas-limites-resumen-diario-internet",
+                            "/oip-tarjetas-limites-resumen-extralimite"
+                        ]
+                    },
+                    "XBNK_OI_MOVF_VALOR_1": {
+                        "active": "false",
+                        "state": "/oip-fondos-movilizacion-externa-resumen"
+                    },
+                    "XBNK_OI_MOVF_1": {
+                        "active": "false",
+                        "state": "/oip-fondos-movilizacion-externa-solicitar"
+                    },
+                    "XBNK_OI_MOVF_2": {
+                        "active": "false",
+                        "state": "/oip-fondos-movilizacion-externa-confirmar"
+                    },
+                    "XBNK_OI_TRASPF_VALOR_1": {
+                        "active": "false",
+                        "state": "/oip-fondos-traspaso-nacional-resumen"
+                    },
+                    "XBNK_OI_TRASPF_1": {
+                        "active": "false",
+                        "state": "/oip-fondos-traspaso-nacional-solicitar"
+                    },
+                    "XBNK_OI_TRASPF_2": {
+                        "active": "false",
+                        "state": "/oip-fondos-traspaso-nacional-confirmar"
+                    },
+                    "XBNK_OI_MOVP_VALOR_1": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-movilizacion-externa-resumen"
+                    },
+                    "XBNK_OI_MOVP_1": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-movilizacion-externa-solicitar"
+                    },
+                    "XBNK_OI_MOVP_2": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-movilizacion-externa-confirmar"
+                    },
+                    "XBNK_OI_TRASPP_VALOR_1": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-traspaso-resumen"
+                    },
+                    "XBNK_OI_TRASPP_1": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-traspaso-solicitar"
+                    },
+                    "XBNK_OI_TRASPP_2": {
+                        "active": "false",
+                        "state": "/oip-planes-pensiones-traspaso-confirmar"
+                    }
+                }
+            }
+        },
+        "pfm_config": {
+            "config": {
+                "18": {
+                    "category-name": "Nómina",
+                    "color": "#b9c800",
+                    "color-rgb": {
+                        "r": 185,
+                        "g": 200,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Retribucion-liquida",
+                    "img": "Retribucion-liquida",
+                    "img-background": "Retribucion-liquida-R"
+                },
+                "21": {
+                    "category-name": "Bonus",
+                    "color": "#7095b2",
+                    "color-rgb": {
+                        "r": 112,
+                        "g": 149,
+                        "b": 178,
+                        "t": 1
+                    },
+                    "class": "oi-Bonus",
+                    "img": "Bonus",
+                    "img-background": "Bonus-R"
+                },
+                "22": {
+                    "category-name": "Tiques restaurant, tiques guardería y otros",
+                    "color": "#82c2d2",
+                    "color-rgb": {
+                        "r": 130,
+                        "g": 194,
+                        "b": 210,
+                        "t": 1
+                    },
+                    "class": "oi-Tiquets-restaurant",
+                    "img": "Tiquets-restaurant",
+                    "img-background": "Tiquets-restaurant-R"
+                },
+                "23": {
+                    "category-name": "Dietas",
+                    "color": "#6f7800",
+                    "color-rgb": {
+                        "r": 111,
+                        "g": 120,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Dietas",
+                    "img": "Dietas",
+                    "img-background": "Dietas-R"
+                },
+                "25": {
+                    "category-name": "Rembolso gastos profesionales",
+                    "color": "#3F3E0D",
+                    "color-rgb": {
+                        "r": 63,
+                        "g": 62,
+                        "b": 13,
+                        "t": 1
+                    },
+                    "class": "oi-Reembolso-gastos-profesionales",
+                    "img": "GastosProfesionales",
+                    "img-background": "GastosProfesionales-R"
+                },
+                "26": {
+                    "category-name": "Pensiones y otras prestaciones Seguridad Social",
+                    "color": "#c67e1f",
+                    "color-rgb": {
+                        "r": 198,
+                        "g": 126,
+                        "b": 31,
+                        "t": 1
+                    },
+                    "class": "oi-Prestaciones-Seguridad-Social",
+                    "img": "Prestaciones-Seguridad-Social",
+                    "img-background": "Prestaciones-Seguridad-Social-R"
+                },
+                "27": {
+                    "category-name": "Ayuda por hijos",
+                    "color": "#ff9e18",
+                    "color-rgb": {
+                        "r": 255,
+                        "g": 158,
+                        "b": 24,
+                        "t": 1
+                    },
+                    "class": "oi-Madre-trabajadora",
+                    "img": "Madre-trabajadora",
+                    "img-background": "Madre-trabajadora-R"
+                },
+                "32": {
+                    "category-name": "Finiquito",
+                    "color": "#99928C",
+                    "color-rgb": {
+                        "r": 153,
+                        "g": 146,
+                        "b": 140,
+                        "t": 1
+                    },
+                    "class": "oi-Finiquito",
+                    "img": "Finiquito",
+                    "img-background": "Finiquito-R"
+                },
+                "29": {
+                    "category-name": " Ingreso alquiler",
+                    "color": "#f3c969",
+                    "color-rgb": {
+                        "r": 243,
+                        "g": 201,
+                        "b": 105,
+                        "t": 1
+                    },
+                    "class": "oi-Alquiler",
+                    "img": "Alquiler",
+                    "img-background": "Alquiler-R"
+                },
+                "512": {
+                    "category-name": "Dividendos y plusvalías",
+                    "color": "#444444",
+                    "color-rgb": {
+                        "r": 68,
+                        "g": 68,
+                        "b": 68,
+                        "t": 1
+                    },
+                    "class": "oi-Dividendos-plusvalias",
+                    "img": "Dividendos-plusvalias",
+                    "img-background": "Dividendos-plusvalias-R"
+                },
+                "36": {
+                    "category-name": "Otros ingresos",
+                    "color": "#d63f3f",
+                    "color-rgb": {
+                        "r": 214,
+                        "g": 63,
+                        "b": 63,
+                        "t": 1
+                    },
+                    "class": "oi-Otros-ingresos",
+                    "img": "Otros-ingresos",
+                    "img-background": "Otros-ingresos-R"
+                },
+                "469": {
+                    "category-name": "Gastos profesionales",
+                    "color": "#3F3E0D",
+                    "color-rgb": {
+                        "r": 63,
+                        "g": 62,
+                        "b": 12,
+                        "t": 1
+                    },
+                    "class": "oi-GastosProfesionales",
+                    "img": "GastosProfesionales",
+                    "img-background": "GastosProfesionales-R"
+                },
+                "2": {
+                    "category-name": "Hogar",
+                    "color": "#6F7800",
+                    "color-rgb": {
+                        "r": 111,
+                        "g": 120,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Vivienda",
+                    "img": "Vivienda",
+                    "img-background": "Vivienda-R"
+                },
+                "4": {
+                    "category-name": "Grandes superficies y mercados",
+                    "color": "#FF756C",
+                    "color-rgb": {
+                        "r": 255,
+                        "g": 117,
+                        "b": 108,
+                        "t": 1
+                    },
+                    "class": "oi-Alimentacion-color",
+                    "img": "Alimentacion",
+                    "img-background": "Alimentacion-R"
+                },
+                "7": {
+                    "category-name": "Educación",
+                    "color": "#F3C969",
+                    "color-rgb": {
+                        "r": 243,
+                        "g": 201,
+                        "b": 105,
+                        "t": 1
+                    },
+                    "class": "oi-Educacion",
+                    "img": "Educacion",
+                    "img-background": "Educacion-R"
+                },
+                "5": {
+                    "category-name": "Vehículos",
+                    "color": "#7095B2",
+                    "color-rgb": {
+                        "r": 112,
+                        "g": 149,
+                        "b": 178,
+                        "t": 1
+                    },
+                    "class": "oi-Vehiculos",
+                    "img": "Vehiculos",
+                    "img-background": "Vehiculos-R"
+                },
+                "8": {
+                    "category-name": "Gastos personales",
+                    "color": "#1A6A9A",
+                    "color-rgb": {
+                        "r": 26,
+                        "g": 106,
+                        "b": 154,
+                        "t": 1
+                    },
+                    "class": "oi-GastosPersonales",
+                    "img": "GastosPersonales",
+                    "img-background": "GastosPersonales-R"
+                },
+                "474": {
+                    "category-name": "Ropa y calzado",
+                    "color": "#fbc78e",
+                    "color-rgb": {
+                        "r": 251,
+                        "g": 199,
+                        "b": 142,
+                        "t": 1
+                    },
+                    "class": "oi-Ropa-y-calzado",
+                    "img": "Ropa-y-calzado",
+                    "img-background": "Ropa-y-calzado-R"
+                },
+                "9": {
+                    "category-name": "Ocio",
+                    "color": "#FF9E18",
+                    "color-rgb": {
+                        "r": 255,
+                        "g": 158,
+                        "b": 24,
+                        "t": 1
+                    },
+                    "class": "oi-Ocio",
+                    "img": "Ocio",
+                    "img-background": "Ocio-R"
+                },
+                "6": {
+                    "category-name": "Salud",
+                    "color": "#6CD2E8",
+                    "color-rgb": {
+                        "r": 108,
+                        "g": 210,
+                        "b": 232,
+                        "t": 1
+                    },
+                    "class": "oi-Salud",
+                    "img": "Salud",
+                    "img-background": "Salud-R"
+                },
+                "15": {
+                    "category-name": "Impuestos",
+                    "color": "#D63F3F",
+                    "color-rgb": {
+                        "r": 214,
+                        "g": 63,
+                        "b": 63,
+                        "t": 1
+                    },
+                    "class": "oi-Impuestos",
+                    "img": "Impuestos",
+                    "img-background": "Impuestos-R"
+                },
+                "507": {
+                    "category-name": "Intereses y gastos financieros",
+                    "color": "#9DA32E",
+                    "color-rgb": {
+                        "r": 157,
+                        "g": 163,
+                        "b": 46,
+                        "t": 1
+                    },
+                    "class": "oi-Comisiones-e-intereses",
+                    "img": "Comisiones-e-intereses",
+                    "img-background": "Comisiones-e-intereses-R"
+                },
+                "11": {
+                    "category-name": "Ahorro e inversiones",
+                    "color": "#444444",
+                    "color-rgb": {
+                        "r": 68,
+                        "g": 68,
+                        "b": 68,
+                        "t": 1
+                    },
+                    "class": "oi-BancosYfinanzas",
+                    "img": "BancosYfinanzas",
+                    "img-background": "BancosYfinanzas-R"
+                },
+                "515": {
+                    "category-name": "Efectivo",
+                    "color": "#b9c800",
+                    "color-rgb": {
+                        "r": 185,
+                        "g": 200,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Efectivo",
+                    "img": "Efectivo",
+                    "img-background": "Efectivo-R"
+                },
+                "17": {
+                    "category-name": "Otros",
+                    "color": "#C67E1F",
+                    "color-rgb": {
+                        "r": 198,
+                        "g": 126,
+                        "b": 31,
+                        "t": 1
+                    },
+                    "class": "oi-Otros",
+                    "img": "Otros",
+                    "img-background": "Otros-R"
+                },
+                "0": {
+                    "category-name": "Sin-categoría",
+                    "color": "#99928C",
+                    "color-rgb": {
+                        "r": 153,
+                        "g": 146,
+                        "b": 140,
+                        "t": 1
+                    },
+                    "class": "oi-Sin-categoria",
+                    "img": "Sin-categoria",
+                    "img-background": "Sin-categoria-R"
+                },
+                "532": {
+                    "category-name": "Autónomos-empresas",
+                    "color": "#1A6A9A",
+                    "color-rgb": {
+                        "r": 26,
+                        "g": 106,
+                        "b": 154,
+                        "t": 1
+                    },
+                    "class": "oi-Autonomos-empresas",
+                    "img": "Autonomos-empresas",
+                    "img-background": "Autonomos-empresas-R"
+                },
+                "1": {
+                    "category-name": "Ingresos",
+                    "color": "#26AA8C",
+                    "color-rgb": {
+                        "r": 38,
+                        "g": 170,
+                        "b": 140,
+                        "t": 1
+                    },
+                    "class": "oi-Ingresos",
+                    "img": "Ingresos",
+                    "img-background": "Ingresos-R"
+                },
+                "576": {
+                    "category-name": "Nómina",
+                    "color": "#b9c800",
+                    "color-rgb": {
+                        "r": 185,
+                        "g": 200,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Retribucion-liquida",
+                    "img": "Retribucion-liquida",
+                    "img-background": "Retribucion-liquida-R"
+                },
+                "577": {
+                    "category-name": "Dietas y gastos profesionales",
+                    "color": "#6f7800",
+                    "color-rgb": {
+                        "r": 111,
+                        "g": 120,
+                        "b": 0,
+                        "t": 1
+                    },
+                    "class": "oi-Dietas",
+                    "img": "Dietas",
+                    "img-background": "Dietas-R"
+                },
+                "582": {
+                    "category-name": "Intereses, dividendos e ingresos financieros",
+                    "color": "#9DA32E",
+                    "color-rgb": {
+                        "r": 157,
+                        "g": 163,
+                        "b": 46,
+                        "t": 1
+                    },
+                    "class": "oi-Comisiones-e-intereses",
+                    "img": "Comisiones-e-intereses",
+                    "img-background": "Comisiones-e-intereses-R"
+                },
+                "116": {
+                    "category-name": "Restaurantes",
+                    "color": "#82C2D2",
+                    "color-rgb": {
+                        "r": 130,
+                        "g": 194,
+                        "b": 210,
+                        "t": 1
+                    },
+                    "class": "oi-Restaurantes-color",
+                    "img": "Restaurantes",
+                    "img-background": "Restaurantes-R"
+                },
+                "477": {
+                    "category-name": "Transferencias, traspaso y efectivo",
+                    "color": "#FFBD40",
+                    "color-rgb": {
+                        "r": 255,
+                        "g": 189,
+                        "b": 64,
+                        "t": 1
+                    },
+                    "class": "oi-Intereses-color",
+                    "img": "Intereses",
+                    "img-background": "Intereses-R"
+                },
+                "10100": {
+                    "category-name": "Excluidos",
+                    "color": "#666666",
+                    "color-rgb": {
+                        "r": 102,
+                        "g": 102,
+                        "b": 102,
+                        "t": 1
+                    },
+                    "class": "oi-Excluidos",
+                    "img": "Excluidos",
+                    "img-background": "Excluidos-R"
+                },
+                "9999": {
+                    "category-name": "Pendiente de categoría",
+                    "color": "#EEEEEE",
+                    "color-rgb": {
+                        "r": 238,
+                        "g": 238,
+                        "b": 238,
+                        "t": 1
+                    },
+                    "class": "oi-Pte-categoria",
+                    "img": "Pte-categoria",
+                    "img-background": "Pte-categoria-R"
+                }
+            }
+        },
+        "buscadorAvanzado_Config": {
+            "config": {
+                "Cuentas": "oip-cuentas-posicion",
+                "Tarjetas": "oip-tarjetas-posicion",
+                "TarjetasCredito": "oip-tarjetas-posicion",
+                "TarjetasDebito": "oip-tarjetas-posicion",
+                "Fondo": "oip-fondos-miniposicion",
+                "FondosInternacionales": "oip-fondos-miniposicion",
+                "Fondosdeinversión": "oip-fondos-miniposicion",
+                "PlanesPensiones": "oip-planes-pensiones-miniposicion",
+                "Planesdepensiones": "oip-planes-pensiones-miniposicion",
+                "PrestamosConsumo": "oip-prestamos-posicion",
+                "PrestamosHipotecarios": "oip-prestamos-posicion",
+                "Préstamos": "oip-prestamos-posicion",
+                "Seguros": "oip-seguros-listado",
+                "Depositos": "oip-depositos-miniposicion",
+                "Depósitos": "oip-depositos-miniposicion",
+                "Valores": "oip-valores-miniposicion",
+                "Avales": "oip-datos-avales"
+            }
+        },
+        "oip3_wa": {
+            "config": {
+                "metadata": [
+                    {
+                        "nombrePagina": "vistas",
+                        "seccion": "posición global",
+                        "state": "oip-posicion-global",
+                        "subseccion1": "",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-posicion",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-movimientos",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "retenciones",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-retenciones",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cheques",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-cheques",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestionar domiciliaciones",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-mandatos-domiciliaciones",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "domiciliar recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-cambio-domiciliacion",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "domiciliar nomina",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-domiciliar-nomina",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "devolucion recibos",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-devolucion-recibos",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud talonarios",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-solicitud-talonarios",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "moneda extranjera",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-moneda-extranjera",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "moneda extranjera",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-moneda-extranjera-firma",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-datos",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "estado ordenes moneda",
+                        "seccion": "mis productos",
+                        "state": "oip-cuentas-estados-ordenes-moneda",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-posicion",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-movimientos",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "extracto",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-extracto",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "extravio",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-extravio",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "firmar consulta cvv",
+                        "tipoProceso": "consulta cvv",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-cvv",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad",
+                        "funnel": "paso1:firma consulta cvv",
+                        "estado": "inicio"
+                    },
+                    {
+                        "nombrePagina": "final consulta cvv",
+                        "tipoProceso": "consulta cvv",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-cvv-resumen",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad",
+                        "funnel": "paso2:final consulta cvv",
+                        "estado": "finalizado"
+                    },
+                    {
+                        "nombrePagina": "modificar cuenta asociada",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-modificacion-cuenta",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-datos",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recargar movil",
+                        "seccion": "transf servicios",
+                        "state": "oip-tarjetas-recargas",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ingreso tarjeta",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-ingresos",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "traspaso tarjeta cuenta",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-traspaso",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "limites",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-limites",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "limites credito",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-limites-modificar-credito",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "limite diario cajero",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-limites-modificar-diario-cajeros",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "limite diario compras",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-limites-modificar-diario-compras",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "limite diario internet",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-limites-modificar-diario-internet",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pagos extranjero",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-pagos-extranjero-solicitud",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "apagado de tarjeta",
+                        "seccion": "mis productos",
+                        "state": "oip-tarjetas-bloqueo-temporal",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-miniposicion",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-movimientos",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "consulta imposiciones",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-posicion",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cancelacion",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-cancelacion",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cancelacion",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-cancelacion-abtract-summary",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "modificacion cuenta asociada",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-datos",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "estado ordenes",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-estado-ordenes",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-datos-detalle",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "modificacion cuenta asociada",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-datos-abtract-summary",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ingreso",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-ingreso",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ingreso",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-ingreso-abtract-summary",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "reembolso",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-reembolso",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "reembolso",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-reembolso-abtract-summary",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "renovacion",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-renovacion",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "renovacion",
+                        "seccion": "mis productos",
+                        "state": "oip-depositos-renovacion-abtract-summary",
+                        "subseccion1": "depositos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-miniposicion",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestion de informes",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-gestion-informes-nacional-solicitar",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "suscripcion nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-suscripcion-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "suscripcion internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-suscripcion-internacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "posicion de un fondo",
+                        "seccion": "transf servicios",
+                        "state": "oip-fondos-posicion",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-movimientos-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-movimientos-internacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-datos-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-datos-internacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-datos-nacional-info",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-datos-internacional-info",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "reembolso nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-reembolso-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "reembolso internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-reembolso-internacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cambio cuenta nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-cambio-cuenta-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cambio cuenta internacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-cambio-cuenta-internacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "traspaso nacional",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-traspaso-nacional",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movilizacion",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-movilizacion-externa",
+                        "subseccion1": "fondos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestionar impuestos",
+                        "seccion": "transf servicios",
+                        "state": "oip-impuestos-estado-ordenes",
+                        "subseccion1": "impuestos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud duplicado seguro social",
+                        "seccion": "transf servicios",
+                        "state": "oip-impuestos-estado-ordenes-solicitar-duplicado",
+                        "subseccion1": "impuestos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud duplicado seguro social",
+                        "seccion": "transf servicios",
+                        "state": "oip-impuestos-estado-ordenes-solicitar-duplicado-resumen",
+                        "subseccion1": "impuestos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestionar recibos (no domiciliados)",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-estado-ordenes",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud duplicado recibos (no domiciliados)",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-estado-ordenes-solicitar-duplicado",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud duplicado recibos (no domiciliados)",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-estado-ordenes-solicitar-duplicado-resumen",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "modificar cuenta cargo",
+                        "seccion": "transf servicios",
+                        "state": "oip-modificar-cuenta-cargo",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ordenes domiciliaciones",
+                        "seccion": "transf servicios",
+                        "state": "oip-ordenes-domiciliaciones",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ordenes mandatos",
+                        "seccion": "transf servicios",
+                        "state": "oip-ordenes-mandatos",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-miniposicion",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "posicion",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-posicion",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-movimientos",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "aportacion",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-aportacion",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "calculadora",
+                        "seccion": "campana planes",
+                        "state": "oip-planes-pensiones-aportacion-campania",
+                        "subseccion1": "",
+                        "tematicaContenido": "consultas comerciales"
+                    },
+                    {
+                        "nombrePagina": "aportacion",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-aportacion-solicitar",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "calculadora",
+                        "puntoAcceso": "campana comercial",
+                        "seccion": "campana planes",
+                        "state": "oip-planes-pensiones-calculadora-campania",
+                        "subseccion1": "",
+                        "tematicaContenido": "consultas comerciales"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-datos",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-datos-resume",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "traspaso",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-traspaso",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "modificar cuenta",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-modificar-cuenta",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "plan aportaciones",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-plan-aportaciones",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movilizacion externa",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-movilizacion-externa",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movilizacion externa",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-movilizacion-externa-solicitar",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "calculadora",
+                        "seccion": "campana planes",
+                        "state": "oip-planes-pensiones-movilizacion-externa-campania",
+                        "subseccion1": "",
+                        "tematicaContenido": "consultas comerciales"
+                    },
+                    {
+                        "nombrePagina": "prestaciones",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-prestaciones",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "aportacion consulta gestion",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-aportacion-consulta-gestion",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-valores-miniposicion",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-valores-movimientos",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "ivalores",
+                        "seccion": "mis productos",
+                        "state": "oip-valores-ivalores",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-prestamos-posicion",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-prestamos-movimientos",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "simulacion cancelacion",
+                        "seccion": "mis productos",
+                        "state": "oip-prestamos-simulacion-cancelacion",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-prestamos-datos",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cuadro amortizacion",
+                        "seccion": "mis productos",
+                        "state": "oip-prestamos-cuadro-amortizacion",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "mis financiaciones",
+                        "seccion": "mis productos",
+                        "state": "oip-finanexpress-financiacion-datos",
+                        "subseccion1": "financiar",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "mis ofertas",
+                        "seccion": "mis productos",
+                        "state": "oip-finanexpress-mis-ofertas-datos",
+                        "subseccion1": "financiar",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-avales-posicion",
+                        "subseccion1": "avales",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "movimientos",
+                        "seccion": "mis productos",
+                        "state": "oip-avales-movimientos",
+                        "subseccion1": "avales",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-avales-datos",
+                        "subseccion1": "avales",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-seguros",
+                        "subseccion1": "seguros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "listado",
+                        "seccion": "mis productos",
+                        "state": "oip-seguros-listado",
+                        "subseccion1": "seguros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "detalle",
+                        "seccion": "mis productos",
+                        "state": "oip-seguros-detalle",
+                        "subseccion1": "seguros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "mis productos",
+                        "state": "oip-seguros-detalle-error",
+                        "subseccion1": "seguros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-transferencias-solicitud",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-transferencias-firma",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "favoritos de transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-favoritos",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "histórico de transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-historico",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-transferencias-errores",
+                        "subseccion1": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestion recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-pago",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestion recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-pago-buscador",
+                        "subseccion1": "pago de recibo / tributo",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "acceso a sección de recibos ya pagados",
+                        "seccion": "transf servicios",
+                        "state": "oip-ultimos-recibos",
+                        "subseccion1": "histórico de recibos/tributos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestionar recibos pendientes",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-pendientes",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos gestionados hoy",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-gestionados-hoy",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "rechazar recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-rechazar",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cargo directo de recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-cargo-directo",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos traspaso previo",
+                        "seccion": "transf servicios",
+                        "state": "oip-cargar-recibos-traspaso-previo",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos cargo cambio cuenta",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-cargo-cambio-cuenta",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos anular cargo",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-anular-cargo",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos anular cargo resumen",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-anular-cargo-resumen",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos anular rechazo",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-anular-rechazo",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "recibos anular rechazo resumen",
+                        "seccion": "transf servicios",
+                        "state": "oip-recibos-anular-rechazo-resumen",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pagar impuestos",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-impuestos",
+                        "subseccion1": "impuestos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pago recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-recibos-formulario",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pago recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-recibos-firmar",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pago recibos",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-recibos-fin",
+                        "subseccion1": "recibos y domiciliaciones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pagar impuestos seguridad social",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-impuestos-seg-social.formulario",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pagar impuestos aeat",
+                        "seccion": "transf servicios",
+                        "state": "oip-pago-impuestos-aeat.formulario",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "datos fiscales",
+                        "seccion": "perfil",
+                        "state": "oip-imp-consulta-info-fiscal",
+                        "subseccion1": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "confirmar borrador declaración",
+                        "seccion": "transf servicios",
+                        "state": "oip-borrador-irpf",
+                        "subseccion1": "impuestos",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "acceso a simuladores",
+                        "seccion": "transf servicios",
+                        "state": "oip-simuladores",
+                        "subseccion1": "simuladores",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "acceso a simuladores",
+                        "seccion": "transf servicios",
+                        "state": "oip-simuladores-portal",
+                        "subseccion1": "simuladores",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "simulador hipotecario",
+                        "seccion": "transf servicios",
+                        "state": "oip-portal-simulador-hipotecario",
+                        "subseccion1": "simuladores",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "comparador fondos",
+                        "seccion": "transf servicios",
+                        "state": "oip-portal-comparador-fondos",
+                        "subseccion1": "simuladores",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "simulador prestamos",
+                        "seccion": "transf servicios",
+                        "state": "oip-portal-simulador-prestamos",
+                        "subseccion1": "simuladores",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-transferencias-donativos",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestion transferencias",
+                        "seccion": "transf servicios",
+                        "state": "oip-cuentas-transferencias-gestion-ordenes",
+                        "subseccion1": "transf trasp",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "contratar cuentas",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-cuentas",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar tarjetas",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-tarjetas",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar depósitos",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-depositos",
+                        "subseccion1": "depósitos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar Fondos de inversión",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-fondos",
+                        "subseccion1": "fondos de inversión",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar planes de pensiones",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-planes-pensiones",
+                        "subseccion1": "planes de pensiones",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "preconc",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-prestamos",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "preconc",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-prestamos-solicitud",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-prestamos-errores",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar cuenta de valores",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-cuenta-valores",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar cuentas",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-cuentas",
+                        "subseccion1": "cuentas",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar tarjetas",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-tarjetas",
+                        "subseccion1": "tarjetas",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar depósitos",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-depositos",
+                        "subseccion1": "depósitos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar fondos de inversión",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-fondos-de-inversion",
+                        "subseccion1": "fondos de inversión",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar planes de pensiones",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-planes-de-pensiones",
+                        "subseccion1": "planes de pensiones",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar préstamos",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-prestamos",
+                        "subseccion1": "préstamos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar hipotecas",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-hipotecas",
+                        "subseccion1": "hipotecas",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar seguros",
+                        "seccion": "contratar",
+                        "state": "oip-portal-oficina-internet-seguros",
+                        "subseccion1": "seguros",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar iupay",
+                        "seccion": "contratar",
+                        "state": "oip-portal-particulares-servicios-iupay",
+                        "subseccion1": "iupay",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar valores",
+                        "seccion": "contratar",
+                        "state": "oip-portal-ahorro-e-inversion-valores-cuenta-de-valores",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "ficha gestor",
+                        "seccion": "gestor",
+                        "state": "oip-contactabilidad",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "gestiones en curso",
+                        "seccion": "buzon",
+                        "state": "oip-bandeja-tareas-en-curso",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "gestiones en curso",
+                        "seccion": "buzon",
+                        "state": "oip-buzon-gestiones",
+                        "subseccion1": "gestiones en curso",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "correspondencia",
+                        "seccion": "buzon",
+                        "state": "oip-muro-buzon-correspondencia",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "notificaciones recibidas",
+                        "seccion": "buzon",
+                        "state": "oip-muro-buzon-notificaciones",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "te llamamos",
+                        "seccion": "ayuda",
+                        "state": "oip-muro-ayuda-te-llamamos",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "escríbenos",
+                        "seccion": "ayuda",
+                        "state": "oip-muro-ayuda-escribenos",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "chat",
+                        "seccion": "ayuda",
+                        "state": "oip-muro-ayuda-chat",
+                        "subseccion1": "",
+                        "tematicaContenido": "contactabilidad"
+                    },
+                    {
+                        "nombrePagina": "datos personales",
+                        "seccion": "perfil",
+                        "state": "oip-muro-perfil-datos-personales",
+                        "subseccion1": "",
+                        "tematicaContenido": "actualización de datos"
+                    },
+                    {
+                        "nombrePagina": "contratos",
+                        "seccion": "perfil",
+                        "state": "oip-correspondencia-contratos-datos",
+                        "subseccion1": "",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "personalizar productos",
+                        "seccion": "perfil",
+                        "state": "oip-personalizacion-productos-info",
+                        "subseccion1": "",
+                        "tematicaContenido": "actualización de datos"
+                    },
+                    {
+                        "nombrePagina": "mis simulaciones",
+                        "seccion": "perfil",
+                        "state": "oip-mis-simulaciones",
+                        "subseccion1": "",
+                        "tematicaContenido": "simulaciones y comparaciones"
+                    },
+                    {
+                        "nombrePagina": "favoritos",
+                        "seccion": "perfil",
+                        "state": "oip-favoritos-miniposicion",
+                        "subseccion1": "",
+                        "tematicaContenido": "incidencias/ayuda"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "perfil",
+                        "state": "oip-favoritos-error",
+                        "subseccion1": "",
+                        "tematicaContenido": "incidencias/ayuda"
+                    },
+                    {
+                        "nombrePagina": "datos personales",
+                        "seccion": "perfil",
+                        "state": "oip-muro-perfil-notificaciones",
+                        "subseccion1": "",
+                        "tematicaContenido": "actualización de datos"
+                    },
+                    {
+                        "nombrePagina": "sacar dinero sin tarjeta",
+                        "seccion": "transf servicios",
+                        "state": "oip-tarjetas-efectivo-cajero-solicitud",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "mercados",
+                        "seccion": "transf servicios",
+                        "state": "oip-valores-mercados",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "gestion de operaciones",
+                        "seccion": "transf servicios",
+                        "state": "oip-estado-ordenes-gestion",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "${nombrePagina}",
+                        "seccion": "mis productos",
+                        "state": "oip-por-ser-tu",
+                        "subseccion1": "${subseccion}",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "mi ahorro",
+                        "seccion": "mis productos",
+                        "state": "oip-mi-ahorro",
+                        "subseccion1": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cambio de clave",
+                        "seccion": "perfil",
+                        "state": "oip-personalizacion-claves-multiacceso-cuenta-solicitar",
+                        "subseccion1": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cambio de firma",
+                        "seccion": "perfil",
+                        "state": "oip-personalizacion-claves-firma-solicitar",
+                        "subseccion1": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "pagina no encontrada",
+                        "seccion": "",
+                        "state": "not-found",
+                        "subseccion1": "",
+                        "tematicaContenido": "error"
+                    },
+                    {
+                        "nombrePagina": "miniposicion",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-miniposicion",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "evoluciones",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-evoluciones",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cartera individual",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cartera individual vista",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual-vista-cartera",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cartera individual historico",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual-vista-historico",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cartera individual valoracion actualizada",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual-vista-valoracion-actualizada",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "cartera individual partidas vivas",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual-partidas-vivas",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "sicavs",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-cartera-individual-sicav",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "documentos",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-documentos",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "documentos carteras modelo",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-documentos-carteras-modelo",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "documentos mercados",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-documentos-mercados",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "documentos newsletters",
+                        "seccion": "mis productos",
+                        "state": "oip-bbp-documentos-newsletters",
+                        "subseccion1": "banca privada",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "solicitud prestamo consumo",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-prestamo-consumo-modal",
+                        "subseccion1": "prestamos",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "datos",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-datos-resume",
+                        "subseccion1": "planes de pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "atencion al cliente",
+                        "state": "oip-sugerencias",
+                        "subseccion1": "sugerencias",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "atencion al cliente",
+                        "state": "oip-servicio-atencion",
+                        "subseccion1": "servicio de atencion",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "formulario desestimiento",
+                        "seccion": "atencion al cliente",
+                        "state": "oip-desestimiento-formulario",
+                        "subseccion1": "desestimiento",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-aviso-legal",
+                        "subseccion1": "aviso legal",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-seguridad",
+                        "subseccion1": "seguridad",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-privacidad",
+                        "subseccion1": "privacidad",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-tarifas",
+                        "subseccion1": "tarifas",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-comisiones-tipos",
+                        "subseccion1": "comisiones",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-accesibilidad",
+                        "subseccion1": "accesibilidad",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "informacion mifid",
+                        "seccion": "informacion",
+                        "state": "oip-informacion-mifid",
+                        "subseccion1": "mifid",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "",
+                        "seccion": "informacion",
+                        "state": "oip-tablón-anuncios",
+                        "subseccion1": "tablon anuncios",
+                        "tematicaContenido": "otros"
+                    },
+                    {
+                        "nombrePagina": "gestion de informes",
+                        "seccion": "mis productos",
+                        "state": "oip-planes-pensiones-gestion-informes-solicitar",
+                        "subseccion1": "planes pensiones",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "detalle ingresos",
+                        "seccion": "pfm",
+                        "state": "oip-pfmIngresos",
+                        "subseccion1": "ingresos",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "detalle gastos",
+                        "seccion": "pfm",
+                        "state": "oip-pfmGastos",
+                        "subseccion1": "gastos",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "remesas",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-envio-dinero-solicitud",
+                        "subseccion1": "envio de dinero",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "remesas",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-envio-dinero-confirmacion",
+                        "subseccion1": "envio de dinero",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "remesas",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-envio-dinero-resumen",
+                        "subseccion1": "envio de dinero",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-envio-dinero-errores",
+                        "subseccion1": "envio de dinero",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "listado de remesas",
+                        "seccion": "transf servicios",
+                        "state": "oip-transferencias-envio-dinero-movimientos",
+                        "subseccion1": "envio de dinero",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "compra inicio",
+                        "seccion": "comprar",
+                        "state": "oip-valores-compra",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "compra valores"
+                    },
+                    {
+                        "nombrePagina": "compra formulario",
+                        "seccion": "comprar",
+                        "state": "oip-valores-compra-formulario",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "compra valores"
+                    },
+                    {
+                        "nombrePagina": "compra confirmacion",
+                        "seccion": "comprar",
+                        "state": "oip-valores-compra-confirmacion",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "compra valores"
+                    },
+                    {
+                        "nombrePagina": "compra resumen",
+                        "seccion": "comprar",
+                        "state": "oip-valores-compra-resumen",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "compra valores"
+                    },
+                    {
+                        "nombrePagina": "venta inicio",
+                        "seccion": "vender",
+                        "state": "oip-valores-venta",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "venta valores"
+                    },
+                    {
+                        "nombrePagina": "venta formulario",
+                        "seccion": "vender",
+                        "state": "oip-valores-venta-formulario",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "venta valores"
+                    },
+                    {
+                        "nombrePagina": "venta confirmacion",
+                        "seccion": "vender",
+                        "state": "oip-valores-venta-confirmacion",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "venta valores"
+                    },
+                    {
+                        "nombrePagina": "venta resumen",
+                        "seccion": "vender",
+                        "state": "oip-valores-venta-resumen",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "venta valores"
+                    },
+                    {
+                        "nombrePagina": "ivalores",
+                        "seccion": "ivalores",
+                        "state": "oip-valores-ivalores",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "ivalores"
+                    },
+                    {
+                        "nombrePagina": "posicion venta ",
+                        "seccion": "consulta",
+                        "state": "oip-valores-posicion-venta",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "posicion venta"
+                    },
+                    {
+                        "nombrePagina": "posicion abierta",
+                        "seccion": "consulta",
+                        "state": "oip-valores-posicion-abierta",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "posicion abierta"
+                    },
+                    {
+                        "nombrePagina": "detalle orden",
+                        "seccion": "detalle",
+                        "state": "oip-valores-detalle-orden",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "detalle orden"
+                    },
+                    {
+                        "nombrePagina": "datos cuenta valores",
+                        "seccion": "datos",
+                        "state": "oip-valores-datos",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "datos cuenta valores"
+                    },
+                    {
+                        "nombrePagina": "datos modificacion",
+                        "seccion": "datos",
+                        "state": "oip-valores-datos-modificacion",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "datos modificacion"
+                    },
+                    {
+                        "nombrePagina": "datos modificacion solicitud",
+                        "seccion": "solicitud",
+                        "state": "oip-valores-datos-modificacion-solicitud",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "solicitud datos modificacion"
+                    },
+                    {
+                        "nombrePagina": "datos modificacion confirmacion",
+                        "seccion": "confirmacion",
+                        "state": "oip-valores-datos-modificacion-confirmacion",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "confirmacion datos modificacion"
+                    },
+                    {
+                        "nombrePagina": "datos modificacion resumen",
+                        "seccion": "resumen",
+                        "state": "oip-valores-datos-modificacion-resumen",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "resumen datos modificacion"
+                    },
+                    {
+                        "nombrePagina": "anulacion orden",
+                        "seccion": "anulacion",
+                        "state": "oip-valores-anulacion-orden",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "anulacion orden"
+                    },
+                    {
+                        "nombrePagina": "anulacion orden confirmar",
+                        "seccion": "anulacion",
+                        "state": "oip-valores-anulacion-orden-confirmar",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "anulacion orden confirmar"
+                    },
+                    {
+                        "nombrePagina": "anulacion orden fin",
+                        "seccion": "fin",
+                        "state": "oip-valores-anulacion-orden-fin",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "anulacion orden fin"
+                    },
+                    {
+                        "nombrePagina": "estado ordenes",
+                        "seccion": "estado",
+                        "state": "oip-valores-estado-ordenes",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "estado ordenes"
+                    },
+                    {
+                        "nombrePagina": "ampliaciones",
+                        "seccion": "ampliaciones",
+                        "state": "oip-valores-ampliaciones",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "ampliaciones"
+                    },
+                    {
+                        "nombrePagina": "ampliaciones dividendo datos",
+                        "seccion": "ampliaciones datos",
+                        "state": "oip-valores-ampliaciones-dividendo-datos",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "ampliaciones dividendo datos"
+                    },
+                    {
+                        "nombrePagina": "ampliaciones dividendo firma",
+                        "seccion": "ampliaciones firma",
+                        "state": "oip-valores-ampliaciones-dividendo-firma",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "ampliaciones dividendo firma"
+                    },
+                    {
+                        "nombrePagina": "ampliaciones dividendo resumen",
+                        "seccion": "ampliaciones resumen",
+                        "state": "oip-valores-ampliaciones-dividendo-resumen",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "ampliaciones dividendo resumen"
+                    },
+                    {
+                        "nombrePagina": "opv listado",
+                        "seccion": "opv",
+                        "state": "oip-valores-opv",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "opv listado"
+                    },
+                    {
+                        "nombrePagina": "opv suscripcion datos",
+                        "seccion": "opv datos",
+                        "state": "oip-valores-opv-suscripcion-datos",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "opv suscripcion datos"
+                    },
+                    {
+                        "nombrePagina": "opv suscripcion fin",
+                        "seccion": "opv fin",
+                        "state": "oip-valores-opv-suscripcion-fin",
+                        "subseccion1": "valores",
+                        "tematicaContenido": "opv suscripcion fin"
+                    },
+                    {
+                        "nombrePagina": "todos los resultados",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewAll",
+                        "subseccion1": "resultados",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "resultados",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewAllFamily",
+                        "subseccion1": "resultados",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "detalle resultado",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewElementDetail",
+                        "subseccion1": "resultados",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "busquedas guardadas",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewSavedSearches",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "preguntas",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewQuestions",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "ayuda",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-viewHelp",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "contratos",
+                        "seccion": "buscador avanzado",
+                        "state": "oip-advanced-search-results-contracts",
+                        "subseccion1": "otros",
+                        "tematicaContenido": "consultas generales"
+                    },
+                    {
+                        "nombrePagina": "favoritos edicion",
+                        "seccion": "transf servicios",
+                        "state": "oip-favoritos-edicion",
+                        "subseccion1": "",
+                        "tematicaContenido": "edición de favoritos"
+                    },
+                    {
+                        "nombrePagina": "marketplace bankiaysi",
+                        "seccion": "bankiaysi",
+                        "state": "oip-bankia-ysi-marketplaces",
+                        "tematicaContenido": "consultas comerciales"
+                    },
+                    {
+                        "nombrePagina": "contratar ivalores",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-ivalores-solicitud",
+                        "subseccion1": "ivalores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar ivalores",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-ivalores-confirmar",
+                        "subseccion1": "ivalores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar ivalores",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-ivalores-firma",
+                        "subseccion1": "ivalores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "contratar ivalores",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-ivalores-resumen",
+                        "subseccion1": "ivalores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-ivalores-errores",
+                        "subseccion1": "ivalores",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "state": "oip-generacion-certificados-emitir-solicitar",
+                        "seccion": "transf servicios",
+                        "subseccion1": "certificados",
+                        "nombrePagina": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "state": "oip-generacion-certificados-emitir-confirmar",
+                        "seccion": "transf servicios",
+                        "subseccion1": "certificados",
+                        "nombrePagina": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "state": "oip-generacion-certificados-emitir-resumen",
+                        "seccion": "transf servicios",
+                        "subseccion1": "certificados",
+                        "nombrePagina": "",
+                        "tematicaContenido": "transaccionalidad"
+                    },
+                    {
+                        "nombrePagina": "contratar renting",
+                        "seccion": "contratar",
+                        "state": "oip-contratacion-renting",
+                        "subseccion1": "renting",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "credenciales entidad",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-credenciales",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "permisos",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-consentimientos",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "firma",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-firma",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "resumen final",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-resumen",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-error",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "firma",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-baja-entidad-firma",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "resumen final",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-baja-entidad-resumen",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "credenciales entidad",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-modificar-entidad-credenciales",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "permisos",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-modificar-entidad-consentimientos",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "firma",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-modificar-entidad-firma",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "resumen final",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-modificar-entidad-resumen",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "error",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-modificar-entidad-error",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "seleccion entidad",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-alta-entidad-datos",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "tus entidades",
+                        "seccion": "perfil",
+                        "state": "oip-agregador-entidades-miniposicion",
+                        "subseccion1": "tus entidades"
+                    },
+                    {
+                        "nombrePagina": "resumen anulacion plan sistematico",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-mantenimiento-suscripciones-periodicas-anular",
+                        "subseccion1": "fondos nacionales"
+                    },
+                    {
+                        "nombrePagina": "mantenimiento suscripciones periodicas",
+                        "seccion": "mis productos",
+                        "state": "oip-fondos-mantenimiento-suscripciones-periodicas-tabla",
+                        "subseccion1": "fondos nacionales"
+                    },
+                    {
+                        "nombrePagina": "credito disponible",
+                        "seccion": "credito disponible",
+                        "state": "oip-credito-disponible-miniposicion",
+                        "subseccion1": "credito disponible",
+                        "tematicaContenido": "contratacion"
+                    },
+                    {
+                        "nombrePagina": "mifid suscripcion fondos internacionales",
+                        "seccion": "contratar",
+                        "state": "oip-suscripciones-fi-mifid",
+                        "subseccion1": "fondo inversion internacional",
+                        "tematicaContenido": "transaccionalidad",
+                        "proceso": "suscripcion fondos internacionales",
+                        "tipoProceso": "suscripcion fondos internacionales",
+                        "funnel": "paso1:mifid suscripcion fondos internacionales",
+                        "estado": "inicio"
+                    },
+                    {
+                        "nombrePagina": "documentacion suscripcion fondos internacionales",
+                        "seccion": "contratar",
+                        "state": "oip-suscripciones-fi-documentacion",
+                        "subseccion1": "fondo inversion internacional",
+                        "tematicaContenido": "transaccionalidad",
+                        "proceso": "suscripcion fondos internacionales",
+                        "tipoProceso": "suscripcion fondos internacionales",
+                        "funnel": "paso2:documentacion suscripcion fondos internacionales",
+                        "estado": "intermedio"
+                    },
+                    {
+                        "nombrePagina": "destino suscripcion fondos internacionales",
+                        "seccion": "contratar",
+                        "state": "oip-suscripciones-fi-datos",
+                        "subseccion1": "fondo inversion internacional",
+                        "tematicaContenido": "transaccionalidad",
+                        "proceso": "suscripcion fondos internacionales",
+                        "tipoProceso": "suscripcion fondos internacionales",
+                        "funnel": "paso3:destino suscripcion fondos internacionales",
+                        "estado": " intermedio"
+                    },
+                    {
+                        "nombrePagina": "resumen suscripcion fondos internacionales",
+                        "seccion": "contratar",
+                        "state": "oip-suscripciones-fi-firma",
+                        "subseccion1": "fondo inversion internacional",
+                        "tematicaContenido": "transaccionalidad",
+                        "proceso": "suscripcion fondos internacionales",
+                        "tipoProceso": "suscripcion fondos internacionales",
+                        "funnel": "paso4:resumen suscripcion fondos internacionales",
+                        "estado": " intermedio"
+                    },
+                    {
+                        "nombrePagina": "fin suscripcion fondos internacionales",
+                        "seccion": "contratar",
+                        "state": "oip-suscripciones-fi-exito",
+                        "subseccion1": "fondo inversion internacional",
+                        "tematicaContenido": "transaccionalidad",
+                        "proceso": "suscripcion fondos internacionales",
+                        "tipoProceso": "suscripcion fondos internacionales",
+                        "funnel": "paso6:fin suscripcion fondos internacionales",
+                        "estado": "finalizado"
+                    },
+                    {
+                        "seccion": "mis productos",
+                        "subseccion1": "fondos",
+                        "nombrePagina": "promocion suscripciones periodicas",
+                        "tipoPagina": "normal",
+                        "state": "oip-regalos-landing-regalo"
+                    }
+                ]
+            }
+        },
+        "trackingSEM_config": {
+            "config": {
+                "oip-contratacion-credito-on": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-cuenta": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-cuenta-valores": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-depositos": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-fondos": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-fondos-interna": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-hipoteca-on": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-planes-pensiones": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-prestamos": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-prestamo-consumo": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-prestamos-hipotecarios": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-renting": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-roboadvisor": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-seguros-autos": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-seguros-hogar": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-tarjetas": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ],
+                "oip-contratacion-ivalores": [
+                    "ii_codc",
+                    "gclid",
+                    "tipo"
+                ]
+            }
+        },
+        "posicion-global_config": {
+            "config": {
+                "listaCuentas.numMovMostrar": 20,
+                "listaCuentas.consultaPDF": true,
+                "listaTarjetas.numMovMostrar": 5,
+                "listaTarjetas.consultaPDF": true,
+                "listaCuentasAmpliada.numMovMostrar": 80,
+                "fondosInternacionales.vertical.operate": {
+                    "opcion1": {
+                        "prefix": "/api/1.0/servicios/cuenta.movimiento-grid/",
+                        "version": "1.0",
+                        "url": "/cuenta/movimiento-grid"
+                    },
+                    "opcion2": {
+                        "prefix": "/api/1.0/servicios/cuenta.movimiento-grid/",
+                        "version": "2.0",
+                        "url": "/cuenta/movimiento-grid"
+                    },
+                    "opcion3": {
+                        "prefix": "/api/1.0/servicios/cuenta.movimiento-grid/",
+                        "version": "3.0",
+                        "url": "/cuenta/movimiento-grid"
+                    }
+                }
+            }
+        },
+        "oip3_config": {
+            "config": {
+                "mostrarGestionesPendientes": true,
+                "mostrarBannerPrestamoHipoteca": false,
+                "mostrarPantallaBienvenida": true,
+                "abandonoOperativaActivo": true,
+                "acceso.ligero": false,
+                "mostrarAgregador": true,
+                "mostrarAgregadorsinPilotar": true,
+                "mostrarPFMAside": true,
+                "mostrarPFMsinPilotar": true,
+                "mostrarGestorAside": false,
+                "mostrarTusOfertasAside": true,
+                "mostrarYSiAside": true,
+                "mostrarBankiaShop": true,
+                "buscadorAvanzadoMostrar": true,
+                "buscadorAvanzadoMostrarSinPiloto": true,
+                "buscadorAvanzadoTimer": "0001",
+                "buscadorPlantillaCompraTarjeta": [
+                    {
+                        "id": 226
+                    }
+                ],
+                "buscadorPlantillaRecibo": [
+                    {
+                        "id": 257
+                    }
+                ],
+                "buscadorPlantillaCajero": [
+                    {
+                        "id": 288
+                    }
+                ],
+                "buscadorPlantillaTransferenciaA": [
+                    {
+                        "id": 203
+                    },
+                    {
+                        "id": 223
+                    },
+                    {
+                        "id": 603
+                    }
+                ],
+                "buscadorPlantillaTransferenciaDE": [
+                    {
+                        "id": 102
+                    },
+                    {
+                        "id": 103
+                    },
+                    {
+                        "id": 163
+                    },
+                    {
+                        "id": 172
+                    }
+                ],
+                "buscadorAvanzadoBolAnalyticsActivo": true,
+                "mostrarPaypalAside": true,
+                "mostrarPaypalsinPilotar": true,
+                "invocacionElementosVinculados": true,
+                "bankiashop.url": "https://magento-bankiashop.epd.bankia.int/sso/ott",
+                "certificados.comision.pordefecto": "PREFERENCIAL",
+                "certificados.comision.cppExento": "11658",
+                "cuentas.transferencias.transferenciasInmediatas.mostrar": true,
+                "cuentas.transferencias.transferenciasInmediatasInternacional.mostrar": false,
+                "cuentas.transferencias.transferenciasInmediatasSinPiloto.mostrar": true,
+                "cuentas.transferencias.transferenciasInmediatasInternacionalSinPiloto.mostrar": false,
+                "contratacion.fondosNacionales.mifid2": true,
+                "inicio.evaluarGDPR": true,
+                "inicio.timeoutGDPR": 3000,
+                "consentimientos.valoresDefecto": true,
+                "gestor.bankiafacil": "Gracias a Bankia Fácil puedes contactar con tu gestor cuando lo necesites",
+                "creditodisponible.bankiafacil": "Con Bankia Fácil conoce todas tus posibilidades de financiación",
+                "contratar.bonificacion.activo": false,
+                "contratacion.cuentas.11660.campaign": "1076",
+                "contratacion.cuentas.11660.origin": "4324",
+                "contratacion.cuentas.11660.fechainipromo": "19/03/2019",
+                "contratacion.cuentas.11660.codigoCampana": "47180",
+                "contratacion.cuentas.11660.codigoRegalo": "1058",
+                "contratacion.cuentas.11660.bonificacion.activo": true,
+                "contratacion.prestamos.prestamoOn": "10740,10750",
+                "domains": {
+                    "piloto": "https://bankia-prev.bankia.es",
+                    "piloto_cloud": "https://bankia-prev-aad.bankia.es",
+                    "produccion": "https://www.bankia.es",
+                    "OI2_pro": "https://oi.bankia.es"
+                },
+                "pilotos": {
+                    "piloto1": [],
+                    "piloto2": [
+                        {
+                            "state": "oip-simuladores-portal({'datos': {'url': 'oip-portal-simulador-prestamos','source':'/_IDIOMA_/oficina-internet/simuladores/simulador-prestamos?oi3=1','name':'Simulador de préstamos'}})",
+                            "activo": true,
+                            "mostrarPiloto": true,
+                            "redirect": "oip-simuladores-portal({'datos': {'url': 'oip-portal-simulador-prestamos','source':'/_IDIOMA_/oficina-internet/simuladores/simulador-prestamo-on?oi3=1&vgnextnomenu=1','name':'Simulador de préstamos'}})"
+                        }
+                    ],
+                    "piloto3": [],
+                    "piloto4": [],
+                    "piloto1Activo": false,
+                    "piloto2Activo": true,
+                    "piloto3Activo": false,
+                    "piloto4Activo": false,
+                    "loadTP": true,
+                    "loadCB": true
+                },
+                "cuentas.movimientos.url": {
+                    "prefix": "/api/1.0/servicios/cuenta.movimiento-grid/",
+                    "version": "4.0",
+                    "url": "/cuenta/movimiento-grid"
+                },
+                "cuentas.movimientos.url.busqueda": {
+                    "prefix": "/api/1.0/servicios/cuenta.movimiento-grid/",
+                    "version": "4.0",
+                    "url": "/cuenta/movimiento-grid"
+                },
+                "idCampaniaBola": "TBI00KE",
+                "bol.ayuda.telefono": "916 024 633",
+                "misinversiones.activo": true,
+                "fraccionamientoSegurosActivo": true,
+                "fechaPST": "16/02",
+                "contratos.posicion.url": {
+                    "prefix": "/api/1.0/servicios/contratos",
+                    "version": "12.0",
+                    "url": "contratos"
+                },
+                "contratacion-fondos-internacionales-state": "oip-movilizaciones-fi",
+                "carterasPermitidasGestor": "115,119,150,353,371,372,375,376,390,700",
+                "permitirCambioPinTarjetaEMV": true,
+                "bdt.react.active": false
+            }
+        }
+    }
+}

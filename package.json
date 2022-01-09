@@ -1,0 +1,91 @@
+{
+    "name": "react-boilerplate",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@webcomponents/custom-elements": "^1.4.2",
+        "@webcomponents/webcomponentsjs": "^2.4.4",
+        "clean-webpack-plugin": "^3.0.0",
+        "connected-react-router": "^6.8.0",
+        "custom-elements-es5-adapter": "^1.0.0",
+        "customize-cra": "^1.0.0",
+        "history": "4.10.0",
+        "html-webpack-plugin": "^4.5.0",
+        "jsencrypt": "^3.0.0-rc.1",
+        "jsrsasign": "^10.0.2",
+        "jsrsasign-util": "^1.0.0",
+        "jszip": "^3.5.0",
+        "node-forge": "^0.10.0",
+        "prop-types": "^15.7.2",
+        "qs": "^6.9.4",
+        "query-string": "^6.13.5",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-hot-loader": "^4.13.0",
+        "react-redux": "^7.2.1",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.3",
+        "redux": "^4.0.5",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^5.2.0",
+        "webpack": "^4.44.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "babel": "^6.23.0",
+        "better-npm-run": "^0.1.1",
+        "copy-webpack-plugin": "^6.3.0",
+        "eslint": "^7.8.1",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-node": "^4.1.0",
+        "eslint-config-prettier": "^6.12.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.21.3",
+        "eslint-plugin-react-hooks": "^4.1.2",
+        "husky": "^4.3.0",
+        "prettier": "^2.1.2",
+        "react-app-rewired": "^2.1.6"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "start:mocks": "better-npm-run start:mocks",
+        "build": "yarn translate && react-app-rewired build",
+        "prettier": "prettier --config .prettierrc --write src/**/*.{js,jsx}",
+        "eslint": "./node_modules/.bin/eslint src/**/*.{js,jsx} -c .eslintrc.json",
+        "translate": "node ./node_modules/@bdt/pit-translate/exec.js"
+    },
+    "betterScripts": {
+        "start:mocks": {
+            "command": "react-app-rewired start",
+            "env": {
+                "MOCKS": true
+            }
+        }
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "prettier --config .prettierrc --check src/**/*.{js,jsx} && eslint src/**/*.{js,jsx}"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all",
+            "ie 11"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version",
+            "ie 11"
+        ]
+    }
+}
